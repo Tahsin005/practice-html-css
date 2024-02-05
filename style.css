@@ -1,0 +1,137 @@
+*{
+    margin: 0px;    
+    padding: 0px;
+    font-family: monospace;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #6a8e9c ;
+
+}
+.logo{
+    width: 100px;
+}
+.menus-container{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+    color: #1763AE;
+
+}
+.banner-img{
+    width: 100%;
+    justify-content: space-around;
+}
+.banner-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    /* justify-content: space-around; */
+    align-items: center;
+    height: 100vh;
+    gap: 100px;
+    text-align: center;
+}
+.title{
+    font-size: 76px;
+    font-weight: bold;
+    color: #1763AE;
+    text-align: center;
+}
+.description{
+    font-size: 22px;
+}
+button{
+    padding: 15px 25px;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.app-button{
+    background-color: #1763AE;
+}
+.doc-button{
+    background-color: #6a8e9c;
+}
+
+.service-card{
+    width: 300px;
+    height: 350px;
+    /* border: 1px solid black;
+     */
+    box-shadow: 8px 8px 16px gray;
+    border-radius: 10px;
+    text-align: center;
+}
+.service-img{
+    width: 150px;
+    padding: 10px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.input-box{
+    padding: 15px 30px;
+    margin: 10px;
+}
+.contact-container{
+    text-align: center;
+}
+.text-area{
+    padding: 35px 50px;
+}
+.submit-button{
+    padding: 10px 20px;
+    width: 35%;
+    margin-top: 20px;
+    background-color: #1763AE;
+    font-size: 22px;
+    border: none;
+}
+footer{
+    background-color: #1763AE;
+
+}
+.useful-links{
+    list-style: none;
+}
+
+.supports{
+    list-style: none;
+}
+.contact-information{
+    list-style: none;
+}
+.about{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 70px;
+    font-size: 15px;
+    
+}
+.credit-section{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/* .useful-links{
+
+}
+
+.contact-information{
+
+}
+
+.supports{
+
+} */
